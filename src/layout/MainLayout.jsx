@@ -6,13 +6,13 @@ import VehicleInformation from "./VehicleInformation";
 
 const MainLayout = () => {
     return (
-        <div className="max-w-[1280px] mx-auto p-5">
+        <div className="max-w-[1280px] mx-auto p-4">
             <div>
                 <h1 className="text-3xl font-bold">Reservation</h1>
             </div>
-            <div className="flex">
+            <div className="flex gap-4 md:gap-8">
                  {/* layouts-------- */}
-            <div className="flex flex-[3] mt-10">
+            <div className="flex flex-[3] mt-8">
                 {/* Reservation Details----------- */}
                 <div>
                     <ReservationDetails></ReservationDetails>
@@ -33,7 +33,7 @@ const MainLayout = () => {
                 </div>
             </div>
            </div>
-            <div className="flex gap-20">
+            <div className="flex flex-1 gap-8 md:gap-20">
                             {/* Vehicle Information */}
                         <div className=" mt-10">
                         
