@@ -2,9 +2,10 @@
 
 const VehicleInformation = () => {
     return (
-        <div>
-            <h1>Vehicle Information</h1>
-        </div>
+        <div className="">
+        <h1 className="border-b-2 border-violet-500">Vehicle Information</h1>
+        
+    </div>
     );
 };
 

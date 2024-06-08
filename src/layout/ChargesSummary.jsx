@@ -1,8 +1,9 @@
 
 const ChargesSummary = () => {
     return (
-        <div>
-            <h1>Charges Summary</h1>
+        <div className="">
+            <h1 className="border-b-2 border-violet-500">Charge Summary</h1>
+            
         </div>
     );
 };
