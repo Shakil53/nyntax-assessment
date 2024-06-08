@@ -57,7 +57,9 @@ const ChargesSummary = () => {
     return (
         <div className="">
             <h1 className="border-b-2 border-violet-500">Charge Summary</h1>
-            <Table columns={columns} dataSource={data} />
+            
+                <Table columns={columns} dataSource={data} />
+           
         </div>
     );
 };

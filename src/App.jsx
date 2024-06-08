@@ -1,11 +1,19 @@
-import MainLayout from "./layout/MainLayout"
+
+
+import { Outlet } from "react-router-dom"
+import Home from "./pages/Home"
+
+
 
 function App() {
 
 
   return (
     <>
-      <MainLayout></MainLayout>
+      <Home></Home>
+      <Outlet></Outlet>
+    
+     
     </>
   )
 }
