@@ -1,4 +1,4 @@
-import { Input, InputNumber } from "antd";
+import { Input } from "antd";
 
 const CustomerInformation = () => {
     return (

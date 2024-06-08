@@ -33,20 +33,22 @@ const MainLayout = () => {
                 </div>
             </div>
            </div>
-            {/* Vehicle Information */}
-            <div className="flex flex-[3] mt-10">
-              
-                <div>
-                   <VehicleInformation></VehicleInformation>
-                </div>
-            </div>
-            {/* Additional Charge */}
-            <div className=" mt-10">
-              
-                <div>
-                   <AdditionalCharges></AdditionalCharges>
-                </div>
-            </div>
+            <div className="flex gap-20">
+                            {/* Vehicle Information */}
+                        <div className=" mt-10">
+                        
+                        <div>
+                            <VehicleInformation></VehicleInformation>
+                        </div>
+                    </div>
+                    {/* Additional Charge */}
+                    <div className="mt-10">
+                        
+                        <div>
+                            <AdditionalCharges></AdditionalCharges>
+                        </div>
+                    </div>
+           </div>
         </div>
     );
 };
